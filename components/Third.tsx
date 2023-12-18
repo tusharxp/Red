@@ -7,11 +7,11 @@ function Third() {
       <div className=" mt-20 mx-auto">
           <p className="text-black font-bold pl-2">Offers For You</p>
           <div className="w-full overflow-x-scroll no-scrollbar flex  mt-5 px-2 ">
-            <div className="flex-shrink-0 p-1 bg-red1 mx-1 h-64 w-[560px]">
+            <div className="flex-shrink-0 p-1 bg-red1 mx-1 lg:h-64 lg:w-[560px]">
               empty card for image
               {/* <Image src="/rectange-card-1.svg" height={300} width={550} alt=""></Image> */}
             </div>
-            <div className="flex-shrink-0 p-1 bg-red1 mx-1 h-64 w-[560px]">
+            <div className="flex-shrink-0 p-1 bg-red1 mx-1 lg:h-64 lg:w-[560px]">
             empty card for image
               {/* <Image src="/rectangle-card-2.svg" height={300} width={350} alt=""></Image> */}
             </div>
