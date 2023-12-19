@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar";
+// import Navbar from "../../components/Navbar";
 import First from "../../components/First";
 import Second from "../../components/Second";
 import Third from "../../components/Third";
@@ -10,7 +10,7 @@ import Expired from "../../components/Expired";
 export default function Home() {
   return (
     <main className="flex flex-col bg-white min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
       <First />
       <Second />
       <Nearexpire />
