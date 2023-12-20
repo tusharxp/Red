@@ -28,7 +28,7 @@ function First() {
               </p>
             </div>
           </div>
-          <img src={"/heroImage.png"} height={400} width={500} alt="card" />
+          <img src={"/heroImage.png"} height={400} width={500} alt="card" className=""/>
 
           {/* <div className="bg-[url('/icon1.png')] bg-cover  md:bg-center lg:h-[500px] h-[350px] w-[500px]"></div> */}
         </div>

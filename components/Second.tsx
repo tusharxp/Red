@@ -23,14 +23,14 @@ function Second() {
         alt=""
       ></Image>
         </div>
-
+        <hr className="border-1 w-3/4 lg:hidden" />
         <span className="md:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
 
-        <div className="lg:text-left text-center lg:mt-0 mt-2">
-          <p className="text-white lg:my-2 lg:text-lg lg:pl-2 font-medium text-[0.9rem] ">
+        <div className="lg:text-left text-center lg:mt-0 mt-2 lg:px-0">
+          <p className="text-white lg:my-2 lg:text-lg lg:pl-2 font-medium text-[0.9rem] px-2">
             Make travel your lifestyle with the Travelxp RED.
           </p>
-          <p className="text-white lg:mb-5 lg:text-lg lg:pl-2">
+          <p className="text-white lg:mb-5 lg:text-lg lg:pl-2 px-2">
             Avail these exclusive discounts and offers with your membership!
           </p>
           <div className="grid lg:mt-0 mt-2">

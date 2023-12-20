@@ -5,7 +5,6 @@ import Third from "../../components/Third";
 import Forth from "../../components/Forth";
 import Nearexpire from "../../components/Nearexpire";
 import Expired from "../../components/Expired";
-// import Test from "../../components/Test";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Expired />
       <Third />
       <Forth />
-      {/* <Test /> */}
     </main>
   );
 }

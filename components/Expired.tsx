@@ -13,7 +13,7 @@ function Expired() {
       ></Image>
       <div className=" lg:text-left text-center lgL:pr-12 relative">
         <p className="text-white text-2xl py-1 pl-1">Your plan has</p>
-        <p className="text-white text-6xl py-2 pl-1 font-bold tracking-wider">EXPIRED</p>
+        <p className="text-white lg:bg-transparent bg-red-400 bg-opacity-60 rounded-full lg:px-0 px-2 text-6xl py-2 pl-1 font-bold tracking-wider">EXPIRED</p>
         <Image
         className="hidden md:block mb-80 opacity-25 absolute -top-6 -right-2"
         src="/percent.svg"
@@ -33,7 +33,7 @@ function Expired() {
         </div>
       </div>
       {/* m v */}
-      <div className="flex lg:hidden justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
+      <div className="flex lg:hidden  justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
           <div>
             <p className="text-white pr-6  text-lg">
               You have saved a <br /> total of
@@ -46,7 +46,7 @@ function Expired() {
 
       {/*  */}
       <div className="grid ">
-      <div className="grid lg:mt-0 mt-2">
+      <div className="grid lg:mt-0 mt-2 lg:pl-0 pl-2">
             <div className="flex overflow-x-scroll no-scrollbar">
           <div className="bg-white rounded-xl p-3 mt-3 mx-1 h-[10rem] w-[10rem] text-left flex-shrink-0 ">
             <Image
