@@ -4,8 +4,8 @@ import Image from "next/image";
 function Forth() {
   return (
     <div className="bg-light1 mt-10 ">
-      <div className="pt-24">
-        <p className=" text-center text-black font-bold text-3xl">
+      <div className="pt-12">
+        <p className=" text-center text-black font-bold lg:text-3xl ">
           Here Is Why Members Love
         </p>
         <p className=" text-center mt-3 text-red1 text-4xl font-extrabold">
@@ -86,10 +86,10 @@ function Forth() {
       </div>
       {/* mobile view */}
       <div className="lg:hidden flex overflow-x-auto no-scrollbar max-w-full pt-10 pb-28">
-        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
+        <div className="bg-red1 text-white w-64 mx-1 rounded-3xl h-64 flex-shrink-0">
           <div className="bg-white rounded-t-3xl flex justify-center items-center">
             <Image
-              className="mr-2"
+              className="mr-2 "
               src="/illustration-1.svg"
               height="100"
               width="200"
@@ -97,10 +97,10 @@ function Forth() {
             ></Image>
           </div>
           <div className="bg-red1 ">
-            <h1 className="mb-1 font-semibold text-center p-2">
+            <h1 className="font-semibold text-center p-2">
               Your Journey, Our Story
             </h1>
-            <p className=" text-center font-thin text-xs p-2">
+            <p className=" text-center font-thin text-xs px-1">
               Over 500 million viewers watch Travelxp every month to explore the
               world in stunning 4K HDR and plan their next favourite holiday.
             </p>

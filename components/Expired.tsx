@@ -11,7 +11,7 @@ function Expired() {
         width="60"
         alt=""
       ></Image>
-      <div className=" lg:text-left text-center pr-12 relative">
+      <div className=" lg:text-left text-center lgL:pr-12 relative">
         <p className="text-white text-2xl py-1 pl-1">Your plan has</p>
         <p className="text-white text-6xl py-2 pl-1 font-bold tracking-wider">EXPIRED</p>
         <Image
@@ -33,15 +33,17 @@ function Expired() {
         </div>
       </div>
       {/* m v */}
-      <div className="flex lg:hidden w-full justify-around items-center m-3 h-20 rounded-xl bg-white border-white border-1 bg-opacity-25 p-3 ">
-        <div>
-          <p className="text-white pr-3 text-sm">
-            You have saved a <br /> total of
-          </p>
+      <div className="flex lg:hidden justify-between items-center m-2 rounded-3xl h-28 w-[25rem] bg-red-400 border-gray-200 border-[0.5px] bg-opacity-50 p-3 my-5 ">
+          <div>
+            <p className="text-white pr-6  text-lg">
+              You have saved a <br /> total of
+            </p>
+          </div>
+          <p className="text-white font-extrabold text-3xl">Rs. 2450</p>
         </div>
-        <p className="text-white font-extrabold text-xl">Rs. 2450</p>
-      </div>
-      <span className="w-0.5 border-rose-50 h-96 border opacity-5 "></span>
+
+      <span className="md:block hidden w-0.5 border-rose-50 h-96 border opacity-20 "></span>
+
       {/*  */}
       <div className="grid ">
       <div className="grid lg:mt-0 mt-2">
@@ -90,7 +92,7 @@ function Expired() {
           </div>
         </div>
         </div>
-        <div className="flex justify-around mx-2 my-5 py-6 rounded-xl bg-rose-500 border-white border-[0.5px] bg-opacity-75 p-3 ">
+        <div className="flex justify-around mx-2 my-5 py-6 rounded-xl bg-red-400 border-white border-[0.5px] bg-opacity-50 p-3 ">
           <div className="pt-2">
             <p className="text-white text-xs py-2">Renew now to get an</p>
             <p className="text-white text-xl font-bold">Additional Month</p>

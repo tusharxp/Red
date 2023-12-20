@@ -11,11 +11,11 @@ function Nearexpire() {
           width="60"
           alt=""
         ></Image>
-        <div className=" lg:text-left text-center pr-12 relative w-full md:text-center lg:w-auto">
+        <div className=" lg:text-left text-center lg:pr-12 relative w-full md:text-center lg:w-auto">
           <p className="text-white text-2xl py-1 pl-1 md:text-center lg:text-left">Expires in</p>
           <p className="text-white rounded-full text-5xl lg:text-6xl lg:py-2 lg:pl-1 font-bold tracking-wide bg-opacity-70">45 DAYS </p>
           <Image
-        className="hidden md:block mb-80 opacity-25 absolute -top-6 -right-2"
+        className="hidden md:block mb-80 opacity-25 absolute -top-6 right-2"
         src="/percent.svg"
         height="20"
         width="40"
@@ -108,7 +108,7 @@ function Nearexpire() {
           </div>
         </div>
         </div>
-            <div className="relative flex justify-around mx-2 my-5 rounded-xl bg-rose-500 border-white border-[0.5px] bg-opacity-75 p-5 ">
+            <div className="relative flex justify-around mx-2 my-5 rounded-xl bg-red-400 border-white border-[0.5px] bg-opacity-50 p-5 ">
               <div className="pt-2">
                 <p className="text-white font-thin text-xs
                 py-3">
